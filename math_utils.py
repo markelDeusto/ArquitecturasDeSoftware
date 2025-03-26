@@ -17,7 +17,9 @@ def es_primo(n):
     #La razón por la cual el bucle comienza desde 2 y va hasta la raíz cuadrada de n es porque no es necesario verificar más allá de la raíz 
     # cuadrada para determinar si un número es primo. Si un número es divisible por un número mayor que su raíz cuadrada, entonces también 
     # será divisible por un número menor que su raíz cuadrada.
+    #kjbvse
     for i in range(2, int(math.sqrt(n)) + 1):
         if n % i == 0:
             return False
     return True
+
